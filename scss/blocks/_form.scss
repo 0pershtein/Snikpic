@@ -1,0 +1,32 @@
+.form {
+
+    &-cta {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form__input {
+    padding: 14px 21px;
+    border: 1px solid #DFE8FA;
+    border-radius: 15px;
+
+    &::placeholder {
+        color: primaryLight;
+    }
+}
+
+.form__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    margin-top: 16px;
+}
+
+.form__text {
+    font-size: 15px;
+    font-weight: 700;
+    color: #BBC0C7;
+
+}

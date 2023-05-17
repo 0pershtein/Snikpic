@@ -1,0 +1,28 @@
+.btn {
+    width: 114px;
+    height: 59px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+
+    background-color: $accent;
+    border-radius: 15px;
+
+    &-header {
+        padding: 12px 24px;
+        border-radius: 50px;
+
+        font-size: 16px;
+        font-weight: medium;
+        color: $accent;
+
+        background-color: #FFF0EC;
+        transition: color 0.2s ease-in, background 0.2s ease-in;
+
+        &:hover {
+            color: #fff;
+            background-color: darken(#FFF0EC, 15%);
+        }
+    }
+}

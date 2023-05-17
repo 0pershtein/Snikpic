@@ -1,0 +1,61 @@
+.inABox {
+    padding-top: 61px;
+    padding-bottom: 71px;
+}
+
+.inABox__inner {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 65px;
+}
+
+.inABox__cta {
+    max-width: 412px;
+}
+
+.cta__title {
+    padding-bottom: 16px;
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    span {
+        color: $accent;
+
+    }
+}
+
+.cta__text {
+    padding-bottom: 32px;
+
+    font-size: 18px;
+    color: $primaryLight;
+}
+
+.cta__footer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.cta__grade {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+
+    margin-bottom: 17px;
+}
+
+.grade__text {
+    font-size: 15px;
+    color: $primaryLight;
+}
+
+.cta__sponsors {
+    display: flex;
+    column-gap: 38px;
+
+    padding-left: 5px;
+}

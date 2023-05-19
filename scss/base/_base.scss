@@ -9,3 +9,31 @@ body {
 .none {
     display: none;
 }
+
+.general__title {
+    margin-bottom: 16px;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    &-inABox {
+        font-size: 60px;
+    }
+
+    &-AI {
+        font-size: 48px;
+        letter-spacing: -0.03em
+    }
+
+    span {
+        color: $accent;
+    }
+}
+
+.general__text {
+    margin-bottom: 32px;
+
+    font-size: 18px;
+    color: $primaryLight;
+}

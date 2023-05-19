@@ -1,5 +1,5 @@
 .btn {
-    width: 114px;
+    width: 144px;
     height: 59px;
 
     font-size: 18px;
@@ -8,6 +8,14 @@
 
     background-color: $accent;
     border-radius: 15px;
+    box-shadow: 0px 16px 40px rgba(255, 188, 166, 0.33);
+
+    transition: background 0.1s ease-in, box-shadow 0.1s ease-in;
+
+    &:hover {
+        background-color: darken($accent, 10%);
+        box-shadow: 0px 16px 40px rgba(255, 188, 166, 0.45);
+    }
 
     &-header {
         padding: 12px 24px;

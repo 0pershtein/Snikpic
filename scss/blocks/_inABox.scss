@@ -1,11 +1,12 @@
 .inABox {
-    padding-top: 61px;
-    padding-bottom: 71px;
+    margin-top: 61px;
+    margin-bottom: 71px;
 }
 
 .inABox__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     column-gap: 65px;
 }
 
@@ -13,25 +14,6 @@
     max-width: 412px;
 }
 
-.cta__title {
-    padding-bottom: 16px;
-
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1.1;
-
-    span {
-        color: $accent;
-
-    }
-}
-
-.cta__text {
-    padding-bottom: 32px;
-
-    font-size: 18px;
-    color: $primaryLight;
-}
 
 .cta__footer {
     display: flex;

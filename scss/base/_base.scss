@@ -16,6 +16,7 @@ body {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.1;
+    
 
     &-inABox {
         font-size: 60px;
@@ -23,6 +24,14 @@ body {
 
     &-AI {
         font-size: 48px;
+        letter-spacing: -0.04em
+    }
+
+    &-selling {
+        letter-spacing: -0.03em
+    }
+
+    &-pricing {
         letter-spacing: -0.03em
     }
 
@@ -36,4 +45,14 @@ body {
 
     font-size: 18px;
     color: $primaryLight;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    } 
+
+    100% {
+        opacity: 1;
+    }
 }

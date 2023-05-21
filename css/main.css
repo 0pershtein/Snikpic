@@ -494,4 +494,63 @@ body {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.reviews {
+  padding: 140px 100px;
+  position: relative;
+}
+
+.slide__btn {
+  position: absolute;
+  background: none;
+  z-index: 11;
+}
+.slide__btn.slide__btn__disabled line {
+  stroke: #B8BCC1;
+}
+.slide__btn.slide__btn__disabled circle {
+  stroke: #B8BCC1;
+}
+.slide__btn_prev {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slide__btn_next {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.slide__avatar {
+  position: relative;
+}
+
+.slide__img {
+  max-width: none;
+}
+
+.slide__play-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.slide__name {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.slide__text {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header none">
+<div class="page">
+    <header class="header none1">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo" href="!#">
@@ -33,6 +35,10 @@
                     <select class="header__lang">
                         EN
                     </select>
+                </div>
+
+                <div class="burger">
+                    <button></button>
                 </div>
             </div>
         </div>
@@ -249,11 +255,11 @@
         <!-- </div> -->
     </section>
 
-    <section class="section__reviews">
+    <section class="section__reviews none">
         <div class="container">
             <div class="reviews">
                 <div class="arrows">
-                    <button class="slide__btn slide__btn_prev slide__btn__disabled">
+                    <button class="slide__btn slide__btn_prev">
                         <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="25" cy="25.002" r="24" transform="rotate(-180 25 25.002)" stroke="#1D2736" stroke-width="2"/>
                             <line x1="32" y1="25.002" x2="18" y2="25.002" stroke="#1D2736" stroke-width="2" stroke-linecap="round"/>
@@ -274,8 +280,9 @@
 
                 <div class="swiper">
 
-                    <div class="swiper__wrapper">
-                        <div class="swiper__slide">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
                             <div class="slide">
                                 <div class="slide__avatar">
                                     <img class="slide__img" src="img/reviews/chris.png" alt="chris">
@@ -292,12 +299,133 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__avatar">
+                                    <img class="slide__img" src="img/reviews/chris.png" alt="chris">
+                                    <a class="slide__play-btn" href="">
+                                        <img src="img/reviews/play.svg" alt="play">
+                                    </a>
+                                </div>
+                                <div class="slide__info">
+                                    <div class="slide__name">Christophe Bourand, ChrisWebMarketing</div>
+                                    <div class="slide__text">Juggling with all my clients and making sure everything was done correctly took me a lot of energy. Not did Snikpic enabled me to tremendously release that extra useless work, but I quickly found myself able to take on much more clients than I originally could me to tremendously release that extra useless work, but I quickly found myself able to take on much more clients than I originally could me to tremendously release that extra useless work, but I quickly found myself able to take on much more clients than I originally could</div>
+                                    <div class="slide__icon">
+                                        <img src="img/reviews/jaba.svg" alt="jaba">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__avatar">
+                                    <img class="slide__img" src="img/reviews/chris.png" alt="chris">
+                                    <a class="slide__play-btn" href="">
+                                        <img src="img/reviews/play.svg" alt="play">
+                                    </a>
+                                </div>
+                                <div class="slide__info">
+                                    <div class="slide__name">Christophe Bourand, ChrisWebMarketing</div>
+                                    <div class="slide__text">Juggling with all my clients and making sure everything was done correctly took me a lot of energy. Not did Snikpic enabled</div>
+                                    <div class="slide__icon">
+                                        <img src="img/reviews/jaba.svg" alt="jaba">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__avatar">
+                                    <img class="slide__img" src="img/reviews/chris.png" alt="chris">
+                                    <a class="slide__play-btn" href="">
+                                        <img src="img/reviews/play.svg" alt="play">
+                                    </a>
+                                </div>
+                                <div class="slide__info">
+                                    <div class="slide__name">Christophe Bourand, ChrisWebMarketing</div>
+                                    <div class="slide__text">Juggling with all my clients and making sure everything was done correctly took me a lot of energy. Not did Snikpic enabled me to tremendously release that extra useless work, but I quickly found myself able to take on much more clients than I originally could</div>
+                                    <div class="slide__icon">
+                                        <img src="img/reviews/jaba.svg" alt="jaba">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer class="section__footer none">
+        <div class="container">
+            <div class="footer__form">
+                <h1 class="general__title general__title-center">apply to our <span> closed beta.</span></h1>
+                <form class="contacts__form" action="">
+                    <label class="contacts__label">
+                        <h4 class="contacts__subtitle">Name</h4>
+                        <input class="form__input footer__input" type="text" placeholder="Let’s not be strangers">
+                    </label>
+
+                    <label class="contacts__label">
+                        <h4 class="contacts__subtitle">Website</h4>
+                        <input class="form__input footer__input" type="text" placeholder="Put the URL right there">
+                    </label>
+
+                    <label class="contacts__label">
+                        <h4 class="contacts__subtitle">Phone Number</h4>
+                        <input class="form__input footer__input" type="text" placeholder="470000000">
+                    </label>
+
+                    <label class="contacts__label">
+                        <h4 class="contacts__subtitle">Email Address</h4>
+                        <input class="form__input footer__input" type="text" placeholder="That’s right, we need your email">
+                    </label>
+                </form>
+
+                <button class="btn footer__btn">Send</button>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__item">
+                    <a href="" class="footer__logo"><img src="img/footer/footer_icon.svg" alt=""></a>
+                    <div class="footer__social">
+                        <a href="" class="social__link"><img src="img/footer/facebook.svg" alt=""></a>
+                        <a href="" class="social__link"><img src="img/footer/instagram.svg" alt=""></a>
+                        <a href="" class="social__link"><img src="img/footer/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__item footer__item-right__item">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">About us</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Blog</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Legal</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Privacy Policy</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Terms and conditions</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Help</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Contact us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer__copyright">S SRL - VAT BE0729.842.450 - contact@s.io - Avenue Armand Huysmans 157,1050 Bruxelies</div>
+        </div>
+    </footer>
+
+</div>
+
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

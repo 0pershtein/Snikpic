@@ -1,0 +1,44 @@
+.page.overlay {
+
+    .burger {
+        display: block;
+
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 50px;
+        height: auto;
+
+        button {
+            &::after, &::before {
+                background-color: #fff;
+            }
+        }
+        
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 100px auto;
+
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .nav__link {
+        &::after {
+            background-color: #fff;
+            bottom: -10px;
+        }
+    }
+}

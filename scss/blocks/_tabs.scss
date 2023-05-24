@@ -1,0 +1,104 @@
+.section__tabs {
+    padding: 100px;
+    padding-bottom: 140px;
+
+    background-color: #FDF9F8;
+}
+
+
+
+
+.tabs__header {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+    margin-bottom: 74px;
+}
+
+.tabs__header-item {
+    font-size: 24px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease-in;
+
+    &.active {
+        position: relative;
+        &::after {
+            content: "";
+
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+
+            animation: fade 0.5s linear;
+
+            background-color: $accent;
+        }
+    }
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.tab__item {
+    flex: 0 1 48%;
+
+    &.left__item {
+        flex: 0 1 376px;
+    }
+}
+
+.tabs__content-item {
+    animation: fade 0.5s linear;
+}
+
+.tab__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: $primaryLight
+}
+
+.tab__tags {
+    display: flex;
+    gap: 16px;
+    
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.tab__tag {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.1;
+    padding-right: 16px;
+
+    &:not(&:last-child) {
+        border-right: 1px solid rgba($primary, 0.1);
+    }
+}
+
+.tab__img {
+    max-width: 586px;
+    width: 100%;
+    height: auto;
+}

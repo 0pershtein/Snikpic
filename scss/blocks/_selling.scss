@@ -1,0 +1,40 @@
+.selling {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+
+    margin-bottom: 140px;
+}
+
+.selling__left {
+    width: 50%;
+}
+
+.selling__text {
+    margin-top: 24px;
+
+    font-size: 18px;
+    color: $primaryLight;
+}
+
+.selling__right {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+
+    width: 50%;
+    padding: 40px 0 40px 62px;
+    
+    border-left: 1px solid rgba(#000, 0.1);
+}
+
+.selling__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: $primary;
+
+    margin-top: 14px;
+}
+
+
+

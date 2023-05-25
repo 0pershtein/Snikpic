@@ -3,6 +3,16 @@
     padding-bottom: 140px;
 
     background-color: #FDF9F8;
+
+    @media (max-width: 1250px) {
+        padding: 50px;
+        padding-bottom: 70px;
+    }
+
+    @media (max-width: 992px) {
+        padding: 10px;
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -14,6 +24,19 @@
     align-items: center;
 
     margin-bottom: 74px;
+
+    @media (max-width: 992px) {
+        gap: 30px;
+        margin-bottom: 34px;
+    }
+
+    @media (max-width: 768px) {
+        justify-content: space-between;
+    }
+
+    @media (max-width: 475px) {
+        gap: 5px;
+    }
 }
 
 .tabs__header-item {
@@ -44,12 +67,30 @@
     &:hover {
         color: $accent;
     }
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 555px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 475px) {
+        font-size: 13px;
+    }
 }
 
 .tab {
     display: flex;
     align-items: center;
     justify-content: space-between ;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 .tab__item {
@@ -57,6 +98,11 @@
 
     &.left__item {
         flex: 0 1 376px;
+
+
+    }
+    @media (max-width: 768px) {
+        flex: 0 1 100%;
     }
 }
 
@@ -81,6 +127,10 @@
     
     margin-top: 8px;
     margin-bottom: 40px;
+
+    @media (max-width: 992px) {
+        gap: 10px;
+    }
 }
 
 .tab__tag {
@@ -94,6 +144,10 @@
 
     &:not(&:last-child) {
         border-right: 1px solid rgba($primary, 0.1);
+    }
+
+    @media (max-width: 992px) {
+        font-size: 14px;
     }
 }
 

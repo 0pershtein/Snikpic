@@ -3,6 +3,17 @@
     &-cta {
         display: flex;
         flex-direction: column;
+
+        input {
+            @media (max-width: 766px) {
+                padding: 8px 14px;
+                font-size: 14px;
+            }
+
+            @media (max-width: 555px) {
+                padding: 16px 24px;
+            }
+        }
     }
 }
 
@@ -22,6 +33,18 @@
     column-gap: 30px;
 
     margin-top: 16px;
+
+    @media (max-width: 766px) {
+        column-gap: 10px;
+    }
+    
+    @media (max-width: 555px) {
+        justify-content: space-between;
+
+        .btn {
+            padding: 16px 36px;
+        }
+    }
 }
 
 .form__text {
@@ -29,4 +52,7 @@
     font-weight: 700;
     color: #BBC0C7;
 
+    @media (max-width: 945px) {
+        font-size: 10px;
+    }
 }

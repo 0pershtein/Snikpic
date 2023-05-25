@@ -41,4 +41,8 @@
             bottom: -10px;
         }
     }
+
+    .inABox, .section__tabs, .section__selling, .section__pricing, .section__reviews, .section__footer {
+        display: none;
+    }   
 }

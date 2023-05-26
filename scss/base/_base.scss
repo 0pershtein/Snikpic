@@ -92,6 +92,14 @@ body {
 
     &-center {
         text-align: center;
+
+        @media (max-width: 768px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 630px) {
+            font-size: 25px;
+        }
     }
 
     span {
